@@ -26,7 +26,7 @@ app.use((0, cors_1.default)({
 // Database connection
 exports.AppDataSource = new typeorm_1.DataSource({
     type: 'mysql',
-    host: 'localhost',
+    host: '127.0.0.1',
     port: 3306,
     username: process.env.MYSQL_USER,
     password: process.env.MYSQL_PASS,
