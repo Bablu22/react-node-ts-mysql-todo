@@ -30,7 +30,7 @@ export const AppDataSource = new DataSource({
   username: process.env.MYSQL_USER,
   password: process.env.MYSQL_PASS,
   database: process.env.MYSQL_DB,
-  synchronize: true,
+  synchronize: false,
   entities: [Task, User],
 })
 
